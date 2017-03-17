@@ -2,18 +2,10 @@
 
 // Register `` component, along with its associated controller and template
 angular.
-    module('elkTrail').
+    module('poiList').
     component('poiList', {
-    template:
-        '<h1> {{$ctrl.title}}</h1>' +
-        '<ul>' +
-            '<li ng-repeat="POIs in $ctrl.POI">' +
-                '<span>{{POIs.name}}</span>' +
-                '<p>{{POIs.snippet}}</p>' +
-            '</li>' +
-        '</ul>',
+    templateUrl: 'poi-list/poi-list.template.html',
     controller: function elkTrailController() {
-        this.title = 'Welcome to Elk Trail Interactive Guide';
         this.POI = [
             {
                 name: 'POI 1',
