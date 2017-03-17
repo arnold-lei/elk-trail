@@ -5,6 +5,9 @@ angular.
             $locationProvider.hashPrefix('!');
 
             $routeProvider.
+                when('/', {
+                    template: '<home></home>'
+                }).
                 when('/poi', {
                     template: '<poi-list></poi-list>'
                 }).

@@ -5,7 +5,7 @@ angular.
         controller: ['$http', '$routeParams',
             function PoiDetailController($http, $routeParams) {
                 var self = this;
-                
+
                 $http.get('POIs/' + $routeParams.poiId+ '.json').then(function(response){
                     self.poi = response.data;
                 })

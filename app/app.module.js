@@ -3,5 +3,6 @@ angular.module('elkTrail', [
   // ...which depends on the `poiLists` module
   'ngRoute',
   'poiList',
-  'poiDetail'
+  'poiDetail',
+  'home'
 ]);
