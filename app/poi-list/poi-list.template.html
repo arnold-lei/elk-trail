@@ -1,13 +1,14 @@
 <div class="container-fluid">
-    <form name="myForm" action="index.html" method="post">
-        <label for="singleSelect"> Single select: </label><br>
-        <select name="singleSelect"
-            ng-model="$ctrl.select"
-            ng-options="POI.name for POI in $ctrl.POI">
-        </select>
-
-        </select><br>
-    </form>
+    <div class="row">
+        <form name="myForm" action="index.html" method="post">
+            <label for="singleSelect"> Single select: </label><br>
+            <select name="singleSelect"
+                ng-model="$ctrl.select"
+                ng-options="POI.name for POI in $ctrl.POI">
+            </select>
+            </select><br>
+        </form>
+    </div>
     <div class="row">
         <ul>
             <li ng-repeat="POIs in $ctrl.POI | filter:$ctrl.select">
