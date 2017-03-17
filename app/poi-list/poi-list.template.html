@@ -5,14 +5,14 @@
             <select name="singleSelect"
                 ng-model="$ctrl.select"
                 ng-options="POI.name for POI in $ctrl.POI">
-            </select>
+                <option value="all">All</option>
             </select><br>
         </form>
     </div>
     <div class="row">
         <ul>
             <li ng-repeat="POIs in $ctrl.POI | filter:$ctrl.select">
-                <span>{{POIs.name}}</span>
+                <a href="#!/poi/{{POIs.id}}">{{POIs.name}}</a>
                 <p>{{POIs.snippet}}</p>
             </li>
         </ul>

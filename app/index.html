@@ -6,14 +6,18 @@
     <title>My HTML File</title>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
     <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="app.module.js"></script>
+    <script src="app.config.js"></script>
     <script src="poi-list/poi-list.module.js"></script>
     <script src="poi-list/poi-list.component.js"></script>
+    <script src="poi-detail/poi-detail.module.js"></script>
+    <script src="poi-detail/poi-detail.component.js"></script>
 </head>
 
 <body>
-        <h1> {{title}}</h1>
-        <poi-list></poi-list>
+        <div ng-view></div>
+
 </body>
 
 </html>
