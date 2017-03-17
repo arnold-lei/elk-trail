@@ -5,12 +5,19 @@
     <meta charset="utf-8">
     <title>Elephant Swamp Nature Trail Elk Township, New Jersey</title>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-material/angular-material.js"></script>
+
     <script src="app.module.js"></script>
     <script src="app.config.js"></script>
     <script src="home/home.module.js"></script>
     <script src="home/home.component.js"></script>
+    <script src="nav/nav.module.js"></script>
+    <script src="nav/nav.component.js"></script>
     <script src="poi-list/poi-list.module.js"></script>
     <script src="poi-list/poi-list.component.js"></script>
     <script src="poi-detail/poi-detail.module.js"></script>
@@ -18,9 +25,7 @@
 </head>
 
 <body>
-        <div class="nav">
-            <h2>Elephant Swamp Nature Trail Elk Township, New Jersey</h2>
-        </div>
+    <app-nav></app-nav>
 
         <div ng-view></div>
 

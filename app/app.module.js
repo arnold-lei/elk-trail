@@ -4,5 +4,6 @@ angular.module('elkTrail', [
   'ngRoute',
   'poiList',
   'poiDetail',
-  'home'
+  'home',
+  'appNav'
 ]);
