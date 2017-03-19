@@ -14,6 +14,9 @@ angular.
                 when('/poi/:poiId', {
                     template: '<poi-detail></poi-detail>'
                 }).
+                when('/contact-us', {
+                    template: '<contact-us></contact-us>'
+                }).
                 otherwise('/poi');
         }
 ]);
