@@ -4,5 +4,6 @@ angular.module('elkTrail', [
   'poiDetail',
   'home',
   'appNav',
-  'contactUs'
+  'contactUs',
+  'instagramApi'
 ]);

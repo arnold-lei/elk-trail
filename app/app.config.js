@@ -17,6 +17,9 @@ angular.
                 when('/contact-us', {
                     template: '<contact-us></contact-us>'
                 }).
+                when('/social-media', {
+                    template: '<instagram-api></instagram-api>'
+                }).
                 otherwise('/poi');
         }
 ]);
