@@ -2,16 +2,18 @@ angular.
     module('instagramApi').
     component('instagramApi', {
         templateUrl: 'instagram-api/instagram-api.template.html',
-        controller: ['$http', '$routeParams',
-            function instagramApiController($http, $routeParams) {
+        controller: ['$http', '$routeParams', '$sce',
+            function instagramApiController($http, $routeParams, $sce) {
                 var self = this;
 
                 $http({
-                    method: 'JSONP',
-                    url: 'https://api.instagram.com/v1/tags/nofilter/media/recent?access_token=1a8e3b31ee72420bb0bb3d2472742bef'
+                    method: 'GET',
+                        url: 'https://api.instagram.com/oauth/authorize/?client_id=1a8e3b31ee72420bb0bb3d2472742bef&redirect_uri=https://elephantswamptrail.com/#!/social-media&response_type=code'
                 }).then(function(response){
                     self.data = response.data;
-                })
+                });
+
+                self.trustSrc = return $sce.trustAsResourceUrl(src)
             }
     ]
 });
