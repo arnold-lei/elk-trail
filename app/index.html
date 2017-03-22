@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Elephant Swamp Nature Trail Elk Township, New Jersey</title>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
-    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.min.css">
 
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
@@ -35,6 +35,19 @@
     <script src="poi-detail/poi-detail.component.js"></script>
     <script src="instagram-api/instagram-api.module.js"></script>
     <script src="instagram-api/instagram-api.component.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/3.7.3/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBnK5h4ZJ-gD-56b3-UxXuv21mgNMpvE_M",
+        authDomain: "elephant-swamp-trail.firebaseapp.com",
+        databaseURL: "https://elephant-swamp-trail.firebaseio.com",
+        storageBucket: "elephant-swamp-trail.appspot.com",
+        messagingSenderId: "473833910534"
+      };
+      firebase.initializeApp(config);
+    </script>
 </body>
 
 </html>
