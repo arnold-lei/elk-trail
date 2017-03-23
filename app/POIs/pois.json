@@ -3,8 +3,7 @@
         "id": "station-1-plants-along-the-trail",
         "name": "Station #1: Plants Along the Trail",
         "snippet": "There are many kinds of plants that grow along the trail, some bloom only at certaintimes, others bloom all summer long"
-    }
-    , {
+    }, {
         "id": "station-2-oaks",
         "name": "Station #2: Oaks",
         "snippet": "Along the trail there are many kinds of oaks. Oaks are members of the beech familyof trees, with 65 species found in North America and about 900 species world wide."
@@ -12,5 +11,30 @@
         "id": "station-3-shrubs",
         "name": "Station #3: Shrubs",
         "snippet": "The lower part of the forest is known as the understory or shrub layer. Plants common here include the black huckleberry, inkberry, high bush blueberry, mountain laurel, teaberry and sweet pepperbush."
+    }, {
+        "id" : "station-4-frogs-and-reptiles",
+        "name" : "Station #4 Frogs and Reptiles",
+        "snippet" : " The fowler’s toad is grayish-green with a white line down the middle of its back and breeds in vernal ponds during rainy nights in the late spring and early summer."
+    }, {
+        "id" : "station-5-birds",
+        "name" : "Station #5 Birds",
+        "snippet" : " There are many kinds of birds found in the area. Some spend the entire year in and are called year-round residents."
+    }, {
+        "id" : "station-6-wildlife",
+        "name" : "Station #6 Wildlife",
+        "snippet" : " There are many species of wildlife that are found in the area they include the white tail deer, raccoon, gray squirrel, opossum, eastern cottontail rabbit, and chipmunk."
+    }, {
+        "id" : "station-7-atlantic-white-cedar",
+        "name" : "Station #7 Atlantic White Cedar",
+        "snippet" : " Atlantic white cedar can be seen along the wetlands in this area."
+    }, {
+        "id" : "station-8-red-maple-gums-and-pitch-pine",
+        "name" : "Station #8: Red Maple, Gums and Pitch Pine",
+        "snippet" : " Atlantic white cedar can be seen along the wetlands in this area."
+    }, {
+        "id" : "station-9-plants-along-the-stream",
+        "name" : "Station #9: Plants Along the Stream",
+        "snippet" : " Atlantic white cedar can be seen along the wetlands in this area."
     }
+
 ]
