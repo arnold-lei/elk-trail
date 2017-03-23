@@ -1,5 +1,6 @@
 angular.module('elkTrail', [
   'ngRoute',
+  'ngSanitize',
   'poiList',
   'poiDetail',
   'home',

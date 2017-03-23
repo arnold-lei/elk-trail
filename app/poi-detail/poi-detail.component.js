@@ -7,9 +7,10 @@ angular.
                 var self = this;
 
                 $http.get('POIs/' + $routeParams.poiId+ '.json').then(function(response){
-                    self.poi = function(response){
-                        return $sce.trustAsHtml(response.data)
-                    };
+                    self.POI = response.data;
+                    self.renderHtml = function(string){
+                        return $sce.trustAsHtml(string)
+                    }
                 })
             }
     ]

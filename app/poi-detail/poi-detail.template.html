@@ -1,4 +1,3 @@
-<div ng-bind-html="poi">
-    <h1>{{$ctrl.poi.name}}</h1>
-    <p>{{$ctrl.poi.content}}</p>
-</div>
+<h1>{{$ctrl.POI.name}}</h1>
+
+<p ng-bind-html="$ctrl.renderHtml($ctrl.POI.content)"></p>
