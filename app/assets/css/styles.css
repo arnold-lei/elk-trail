@@ -1,0 +1,13 @@
+.darkgreen{
+  background-color: #5c755e;
+}
+
+._md-nav-button, ._md-nav-button > *{
+  color: #f7dcb4;
+  font-weight: bold;
+}
+
+md-ink-bar, md-tabs md-ink-bar {
+    color: #f7dcb4 !important;
+    background-color:#f7dcb4 !important;
+}
