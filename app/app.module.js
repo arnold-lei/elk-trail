@@ -5,5 +5,5 @@ angular.module('elkTrail', [
   'home',
   'appNav',
   'contactUs',
-  'instagramApi'
+  'instagramApi',
 ]);

@@ -1,7 +1,7 @@
 angular.
     module('elkTrail').
-    config(['$locationProvider', '$routeProvider',
-        function config($locationProvider, $routeProvider) {
+    config(['$locationProvider', '$routeProvider', '$sceProvider',
+        function config($locationProvider, $routeProvider, $sceProivder ) {
             $locationProvider.hashPrefix('!');
 
             $routeProvider.
