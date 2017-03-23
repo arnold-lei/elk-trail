@@ -3,6 +3,6 @@ angular.
     component('appNav', {
         templateUrl: 'nav/nav.template.html',
         controller: function appNavCtrl(){
-            this.currentNavItem = 'page1';
+            // this.currentNavItem = 'page1';
         }
 });
