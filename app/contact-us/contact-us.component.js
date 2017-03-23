@@ -21,15 +21,6 @@ angular.
             'WY').split(' ').map(function(state) {
                 return {abbrev: state};
               });
-        //   })
-        //   .config(function($mdThemingProvider) {
-          //
-        //     // Configure a dark theme with primary foreground yellow
-          //
-        //     $mdThemingProvider.theme('docs-dark', 'default')
-        //       .primaryPalette('yellow')
-        //       .dark();
-          //
-        //   }
+
         }
     });
